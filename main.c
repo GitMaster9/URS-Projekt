@@ -1,6 +1,6 @@
-#define F_CPU 7372800 UL
+#define F_CPU 7372800UL
 #define USART_BAUDRATE 9600
-#define BAUD_PRESCALE(((F_CPU / (USART_BAUDRATE * 16 UL))) - 1)
+#define BAUD_PRESCALE (((F_CPU / (USART_BAUDRATE * 16UL))) - 1)
 
 #include <avr/io.h>
 
